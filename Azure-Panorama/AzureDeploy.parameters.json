@@ -32,18 +32,18 @@
     "vmSize": {
        "type": "string",
        "allowedValues": [
-          "Standard_D3",
-          "Standard_D4",
-          "Standard_D3_v2",
-          "Standard_D4_v2",
-          "Standard_A4",
-          "Standard_DS3_v2",
-          "Standard_DS4_v2"
+          "Standard_D5v2",
+          "Standard_DS5v2",
+          "Standard_D16_v3",
+          "Standard_D16s_v3",
+          "Standard_D16_v4",
+          "Standard_D16s_v4",
+          "Standard_E16a_v4"
        ],
        "metadata": {
           "description": "Azure VM size for Panorama"
        },
-       "defaultValue": "Standard_D4_v2"
+       "defaultValue": "Standard_DS54_v2"
     },
     "virtualNetworkName": {
       "type": "string",
