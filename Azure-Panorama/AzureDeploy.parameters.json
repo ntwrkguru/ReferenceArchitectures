@@ -43,7 +43,7 @@
        "metadata": {
           "description": "Azure VM size for Panorama"
        },
-       "defaultValue": "Standard_D3_v2"
+       "defaultValue": "Standard_D4_v2"
     },
     "virtualNetworkName": {
       "type": "string",
