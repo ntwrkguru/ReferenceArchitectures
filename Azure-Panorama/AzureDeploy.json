@@ -44,7 +44,7 @@
        "metadata": {
           "description": "Azure VM size for Panorama"
        },
-       "defaultValue": "Standard_DS5_v2"
+       "defaultValue": "Standard_DS5v2"
     },
     "publicIPType": {
         "type": "string",
