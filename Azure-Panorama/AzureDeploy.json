@@ -33,13 +33,18 @@
     "vmSize": {
        "type": "string",
        "allowedValues": [
+          "Standard_D5v2",
+          "Standard_DS5v2",
+          "Standard_D16_v3",
           "Standard_D16s_v3",
-          "Standard_D16ds_v4"
+          "Standard_D16_v4",
+          "Standard_D16s_v4",
+          "Standard_E16a_v4"
        ],
        "metadata": {
           "description": "Azure VM size for Panorama"
        },
-       "defaultValue": "Standard_D16s_v3"
+       "defaultValue": "Standard_DS5_v2"
     },
     "publicIPType": {
         "type": "string",
@@ -55,13 +60,14 @@
     "imageVersion": {
        "type": "string",
        "allowedValues": [
-          "9.1.2",
-          "10.1.6"
+          "9.1.13",
+          "10.0.10",
+          "10.1.5"
        ],
        "metadata": {
           "description": "PAN OS Version"
        },
-       "defaultValue": "10.1.6"
+       "defaultValue": "10.1.5"
     },
     "virtualNetworkName": {
       "type": "string",
